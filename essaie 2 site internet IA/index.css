@@ -1,0 +1,59 @@
+/* Contenu CSS */
+/* Sélecteur de balise */
+body {
+    font-family: "Formula1-Regular", Arial, sans-serif;
+    color: #ffffff;
+  }
+  
+  /* Sélecteur d'identifiant */
+  #main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+  }
+  
+  /* Sélecteur de classe */
+  .nav-item {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  /* Sélecteur combiné */
+  .nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Sélecteur d'attribut */
+  [data-lang="fr"] {
+    display: none; /* Cache les éléments en français */
+  }
+  
+  /* Sélecteur pseudo-classe */
+  .nav-item:hover {
+    background-color: #ff2800; /* Change la couleur au survol */
+  }
+  
+  /* Sélecteur pseudo-élément */
+  h1::after {
+   content: "®"; /* Ajoute le symbole ® après le titre */
+   font-size: 12px;
+   vertical-align: super;
+   
+  }
+
+  body {
+  background-image: url("test\ fond\ d\'écran\ site\ internet.avif");
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
